@@ -18,6 +18,7 @@ h1 {
     font-size:50px;
     margin-bottom: 0px;
     margin-top: 25px;
+    text-shadow: 2px 2px 6px white;
 }
 
 h3 {
@@ -33,17 +34,26 @@ body {
 
 .heading {
     display:flex;
-    background-color: #8a2be2;
     margin:0;
+    margin-bottom: 20px;
     box-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
+    background: linear-gradient(90deg, #8a2be2 50%, black 100%);
+    justify-content: center;
 }
 
 .heading-words {
-    background-color: blueviolet;
     margin:5px;
     margin-left: 20px;
-    color: white;
+    color: black;
     font-size: 16px;
+}
+
+.heading img {
+    margin: 20px;
+    border-radius: 20px;
+    width:250px; 
+    align-self:center;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
 }
 
 .content {
