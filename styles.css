@@ -1,0 +1,105 @@
+@font-face {
+  font-family: 'Jua';
+  src: url('fonts/JUA-REGULAR.TTf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Qilka';
+  src: url('fonts/QILKA-BOLD.TTF') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+    font-family:'Jua', Segoe UI, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size:50px;
+    margin-bottom: 0px;
+    margin-top: 25px;
+}
+
+h3 {
+    font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+
+}
+
+body {
+    margin: 0;
+    background-color: #000;
+}
+
+.heading {
+    display:flex;
+    background-color: #8a2be2;
+    margin:0;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
+}
+
+.heading-words {
+    background-color: blueviolet;
+    margin:5px;
+    margin-left: 20px;
+    color: white;
+    font-size: 16px;
+}
+
+.content {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.clubs, .hobbies, .facts {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+    border: 3px solid blueviolet;
+    border-radius: 30px;
+    font-family: 'Jua', Segoe UI, Tahoma, sans-serif;
+    color: #fff;
+    font-size: 28px;
+}
+
+p {
+    margin: 0;
+    margin-top: 15px;
+}
+
+.clubs:hover, .hobbies:hover, .facts:hover {
+    box-shadow: 0px 0px 40px rgba(255, 255, 255, 0.5);
+}
+
+.hidden {
+  display: none;
+}
+
+#expanded-content {
+  position: relative;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 20px;
+  margin: 40px auto;
+  padding: 30px;
+  width: 80%;
+  text-align: center;
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
+}
+
+#close-btn {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
